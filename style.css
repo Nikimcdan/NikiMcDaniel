@@ -1,0 +1,118 @@
+
+body {
+    background-color: #EDC28A;
+    border-color: #F45E27;
+    flex-direction: row;
+    max-width: 100vw;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    color: #D7F59D;
+}
+
+header{
+    display: flex;
+    max-width: 100vw;
+    height: 10vw;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+header div{
+    display:flex;
+    object-fit: contain;
+    max-height: auto;
+}
+.navigation {
+    display:flex;
+    list-style: none;
+    flex: 1 0 auto;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    float: left;
+}
+.navigation li a{  
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    padding: .25rem;
+    margin: .25rem;
+}
+.navigation li a:hover {
+  border-color: #F45E27;
+  border-style: dashed;
+  border-width: .25rem;;
+  border-radius: 25px;
+}
+
+.introduction{
+    display: block;
+    margin: 1rem;
+    padding:2rem;
+    background-color: #9247A9;
+    border-style: solid;
+    border-color: #F45E27;
+    border-width: .5rem;
+    border-radius: 25px;
+}
+
+h4{
+    color: #D7F59D;
+    text-shadow: .25rem .25rem #F45E27;
+    font-size: 3rem;
+    justify-content: flex-start;
+
+}
+
+.timeline{
+    display:flex;
+    max-width: 100%;
+    margin: 4rem;
+    border-color:#F45E27;
+    border-width: 3rem;
+}
+
+.timeline-card{
+    display: block;
+    max-width: 20vw;
+    background-color: #9247A9;
+    border-color: #F45E27;
+    justify-content: space-between;
+    margin:1rem;
+    border: 1rem;
+    border-radius: 25px;
+}
+
+.timeline-card img{
+    background-color: #EDC28A;
+    object-fit: contain;
+
+}
+
+.timeline-card h6{
+    justify-content: center;
+    vertical-align: middle;
+    margin: 1vw;
+    font-size: clamp(1rem, 4vw, 1.4rem);
+}
+.timeline-card p{
+    justify-content: center;
+    vertical-align: middle;
+    margin: 1vw;
+    font-size: clamp(1rem, 4vw, 1.4rem);
+}
+
